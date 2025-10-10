@@ -1,0 +1,72 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "terminal"
+
+# ——————————————————————————————————————————————————————————
+# Основные параметры
+# ——————————————————————————————————————————————————————————
+[pagination]
+  pagerSize = 5
+enableRobotsTXT = true
+
+[params]
+  # Текст на главной странице
+  subtitle = "Designer & Developer Portfolio"
+  description = "Welcome to my personal website — built with Hugo and the Terminal theme."
+  keywords = ["design", "development", "portfolio", "hugo"]
+
+  # Цветовая тема: "light", "dark" или "orange"
+  themeColor = "dark"
+
+  # Имя в хедере
+  author = "Arina Samarina"
+
+  # Показать дату в постах
+  showDate = true
+
+  # Показывать кнопки “вернуться назад”
+  showMenuItems = 5
+
+  # Добавить эмодзи рядом с заголовками меню
+  menuMore = "Show more"
+
+  # Социальные ссылки
+  [[params.social]]
+    name = "GitHub"
+    url = "https://github.com/arrsamarina"
+
+  [[params.social]]
+    name = "Instagram"
+    url = "https://instagram.com"
+
+  [[params.social]]
+    name = "Email"
+    url = "mailto:arina.samarina.963@mail.ru"
+
+# ——————————————————————————————————————————————————————————
+# Меню сайта
+# ——————————————————————————————————————————————————————————
+[menu]
+
+
+  [[menu.main]]
+    identifier = "report #1"
+    name = "report #1"
+    url = "/reports/"
+    weight = 1
+
+
+# ——————————————————————————————————————————————————————————
+# Markdown / контент
+# ——————————————————————————————————————————————————————————
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# ——————————————————————————————————————————————————————————
+# Footer
+# ——————————————————————————————————————————————————————————
+[params.footer]
+  text = "© 2025 Arina Samarina — powered by Hugo & Terminal theme"
