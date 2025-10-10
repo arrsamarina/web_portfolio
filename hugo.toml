@@ -1,6 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://arrsamarina.github.io/web_portfolio/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'web_portfolio'
 theme = "terminal"
 
 # ——————————————————————————————————————————————————————————
