@@ -1,11 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>web_portfolio</title>
+    <link>http://localhost:36651/web_portfolio/</link>
+    <description>Recent content on web_portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 Nov 2025 16:14:24 +0300</lastBuildDate>
+    <atom:link href="http://localhost:36651/web_portfolio/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>отчёт 1</title>
+      <link>http://localhost:36651/web_portfolio/reports/report-1/</link>
+      <pubDate>Sat, 08 Nov 2025 16:14:24 +0300</pubDate>
+      <guid>http://localhost:36651/web_portfolio/reports/report-1/</guid>
+      <description>&lt;h1 id=&#34;лабораторная-работа-работа-с-git&#34;&gt;Лабораторная работа: Работа с Git&lt;/h1&gt;&#xA;&lt;p&gt;&lt;strong&gt;Студент:&lt;/strong&gt; Самарина Арина&lt;br&gt;&#xA;&lt;strong&gt;Группа:&lt;/strong&gt; PЗ468&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h2&gt;&#xA;&lt;p&gt;Освоить базовые команды &lt;strong&gt;Git&lt;/strong&gt; для работы с локальными и удалёнными репозиториями.&lt;br&gt;&#xA;Научиться выполнять основные операции — инициализацию, добавление файлов, создание коммитов, ветвление и слияние — как в терминале, так и через графический клиент &lt;strong&gt;GitHub Desktop&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;подготовка-окружения&#34;&gt;Подготовка окружения&lt;/h2&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;Установлен Git и &lt;strong&gt;GitHub Desktop&lt;/strong&gt;.&lt;/li&gt;&#xA;&lt;li&gt;Создана папка &lt;code&gt;test_repo_for_web&lt;/code&gt; — локальный репозиторий для экспериментов.&lt;/li&gt;&#xA;&lt;li&gt;Настроено подключение к удалённому репозиторию GitHub.&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;ход-выполнения&#34;&gt;Ход выполнения&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-создание-репозитория&#34;&gt;1. Создание репозитория&lt;/h3&gt;&#xA;&lt;p&gt;Создана новая папка:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>работа с фреймворком Bootstrap 5</title>
+      <link>http://localhost:36651/web_portfolio/reports/report-2/</link>
+      <pubDate>Sat, 08 Nov 2025 15:51:19 +0300</pubDate>
+      <guid>http://localhost:36651/web_portfolio/reports/report-2/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://github.com/arrsamarina/lab_bootstrap&#34;&gt;ссылка на репозиторий github&lt;/a&gt;&#xA;&lt;a href=&#34;https://se.ifmo.ru/~s368753/lab_bootstrap/&#34;&gt;ссылка на helios&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
   </channel>
 </rss>

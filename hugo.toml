@@ -51,8 +51,8 @@ enableRobotsTXT = true
 
 
   [[menu.main]]
-    identifier = "report #1"
-    name = "report #1"
+    identifier = "reports"
+    name = "reports"
     url = "/reports/"
     weight = 1
 

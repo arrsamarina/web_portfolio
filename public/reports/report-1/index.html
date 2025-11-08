@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/web_portfolio/livereload.js?mindelay=10&amp;v=2&amp;port=36651&amp;path=web_portfolio/livereload" data-no-instant defer></script>
+  
+    <title>отчёт 1 :: web_portfolio</title>
+  
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Лабораторная работа: Работа с Git Студент: Самарина Арина
+Группа: PЗ468
+Цель работы Освоить базовые команды Git для работы с локальными и удалёнными репозиториями.
+Научиться выполнять основные операции — инициализацию, добавление файлов, создание коммитов, ветвление и слияние — как в терминале, так и через графический клиент GitHub Desktop.
+Подготовка окружения Установлен Git и GitHub Desktop. Создана папка test_repo_for_web — локальный репозиторий для экспериментов. Настроено подключение к удалённому репозиторию GitHub. Ход выполнения 1. Создание репозитория Создана новая папка:
+" />
+<meta name="keywords" content="[design development portfolio hugo]" />
+
+  <meta name="robots" content="noodp" />
+
+<link rel="canonical" href="http://localhost:36651/web_portfolio/reports/report-1/" />
+
+
+
+
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/buttons.min.86f6b4c106b6c6eb690ae5203d36b442c1f66f718ff4e8164fa86cf6c61ad641.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/code.min.d529ea4b2fb8d34328d7d31afc5466d5f7bc2f0bc9abdd98b69385335d7baee4.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/fonts.min.5bb7ed13e1d00d8ff39ea84af26737007eb5051b157b86fc24487c94f3dc8bbe.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/footer.min.eb8dfc2c6a7eafa36cd3ba92d63e69e849e2200e0002a228d137f236b09ecd75.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/gist.min.a751e8b0abe1ba8bc53ced52a38b19d8950fe78ca29454ea8c2595cf26aad5c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/header.min.75c7eb0e2872d95ff48109c6647d0223a38db52e2561dd87966eb5fc7c6bdac6.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/main.min.36833afd348409fc6c3d09d0897c5833d9d5bf1ff31f5e60ea3ee42ce2b1268c.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/menu.min.3c17467ebeb3d38663dce68f71f519901124fa5cbb4519b2fb0667a21e9aca39.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/pagination.min.bbb986dbce00a5ce5aca0504b7925fc1c581992a4bf57f163e5d69cc1db7d836.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/post.min.e6dddd258e64c83e05cec0cd49c05216742d42fc8ecbfbe6b67083412b609bd3.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/syntax.min.a0773cce9310cb6d8ed23e50f005448facf29a53001b57e038828daa466b25c0.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/terminal.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css">
+
+  
+  <link rel="stylesheet" href="http://localhost:36651/web_portfolio/css/terms.min.b81791663c3790e738e571cdbf802312390d30e4b1d8dc9d814a5b5454d0ac11.css">
+
+
+
+
+
+
+
+<link rel="shortcut icon" href="http://localhost:36651/web_portfolio/favicon.png">
+<link rel="apple-touch-icon" href="http://localhost:36651/web_portfolio/apple-touch-icon.png">
+
+
+<meta name="twitter:card" content="summary" />
+
+
+
+<meta property="og:locale" content="en" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="отчёт 1">
+<meta property="og:description" content="Лабораторная работа: Работа с Git Студент: Самарина Арина
+Группа: PЗ468
+Цель работы Освоить базовые команды Git для работы с локальными и удалёнными репозиториями.
+Научиться выполнять основные операции — инициализацию, добавление файлов, создание коммитов, ветвление и слияние — как в терминале, так и через графический клиент GitHub Desktop.
+Подготовка окружения Установлен Git и GitHub Desktop. Создана папка test_repo_for_web — локальный репозиторий для экспериментов. Настроено подключение к удалённому репозиторию GitHub. Ход выполнения 1. Создание репозитория Создана новая папка:
+" />
+<meta property="og:url" content="http://localhost:36651/web_portfolio/reports/report-1/" />
+<meta property="og:site_name" content="web_portfolio" />
+
+  <meta property="og:image" content="http://localhost:36651/web_portfolio/og-image.png">
+
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="627">
+
+
+  <meta property="article:published_time" content="2025-11-08 16:14:24 &#43;0300 MSK" />
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+
+<div class="container">
+
+  <header class="header">
+  <div class="header__inner">
+    <div class="header__logo">
+      <a href="http://localhost:36651/web_portfolio/">
+  <div class="logo">
+    Terminal
+  </div>
+</a>
+
+    </div>
+    
+      <ul class="menu menu--mobile">
+  <li class="menu__trigger">Menu&nbsp;▾</li>
+  <li>
+    <ul class="menu__dropdown">
+      
+        
+          <li><a href="/web_portfolio/reports/">reports</a></li>
+        
+      
+      
+    </ul>
+  </li>
+</ul>
+
+    
+    
+  </div>
+  
+    <nav class="navigation-menu">
+  <ul class="navigation-menu__inner menu--desktop">
+    
+      
+        
+          <li><a href="/web_portfolio/reports/" >reports</a></li>
+        
+      
+      
+    
+  </ul>
+</nav>
+
+  
+</header>
+
+
+  <div class="content">
+    
+<article class="post">
+  <h1 class="post-title">
+    <a href="http://localhost:36651/web_portfolio/reports/report-1/">отчёт 1</a>
+  </h1>
+  <div class="post-meta"><time class="post-date">2025-11-08</time></div>
+
+  
+  
+
+
+  
+
+  <div class="post-content"><div>
+        <h1 id="лабораторная-работа-работа-с-git">Лабораторная работа: Работа с Git<a href="#лабораторная-работа-работа-с-git" class="hanchor" ariaLabel="Anchor">#</a> </h1>
+<p><strong>Студент:</strong> Самарина Арина<br>
+<strong>Группа:</strong> PЗ468</p>
+<hr>
+<h2 id="цель-работы">Цель работы<a href="#цель-работы" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Освоить базовые команды <strong>Git</strong> для работы с локальными и удалёнными репозиториями.<br>
+Научиться выполнять основные операции — инициализацию, добавление файлов, создание коммитов, ветвление и слияние — как в терминале, так и через графический клиент <strong>GitHub Desktop</strong>.</p>
+<hr>
+<h2 id="подготовка-окружения">Подготовка окружения<a href="#подготовка-окружения" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ol>
+<li>Установлен Git и <strong>GitHub Desktop</strong>.</li>
+<li>Создана папка <code>test_repo_for_web</code> — локальный репозиторий для экспериментов.</li>
+<li>Настроено подключение к удалённому репозиторию GitHub.</li>
+</ol>
+<hr>
+<h2 id="ход-выполнения">Ход выполнения<a href="#ход-выполнения" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="1-создание-репозитория">1. Создание репозитория<a href="#1-создание-репозитория" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Создана новая папка:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>test_repo_for_web
+</span></span></code></pre></div><p>В ней будет находиться локальный репозиторий Git.<br>
+Команда:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git status
+</span></span></code></pre></div><p>показала, что репозиторий пуст, коммитов нет, ветка <code>master</code>.</p>
+<p><img src="../images/image22.png" alt="Шаг 1"></p>
+<hr>
+<h3 id="2-создание-файла-и-первый-коммит">2. Создание файла и первый коммит<a href="#2-создание-файла-и-первый-коммит" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Создан новый пустой файл:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>New-Item README.txt -ItemType File
+</span></span><span style="display:flex;"><span>Add-Content README.txt <span style="color:#e6db74">&#34;привет!&#34;</span>
+</span></span></code></pre></div><p><img src="../images/image42.png" alt="Шаг 2">
+<img src="../images/image7.png" alt="Шаг 3">
+Файл появился как <em>untracked</em>.<br>
+Добавление и фиксация изменений:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add README.txt
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;first file&#34;</span>
+</span></span></code></pre></div><p><img src="../images/image41.png" alt="Шаг 4">
+<img src="../images/image39.png" alt="Шаг 5"></p>
+<hr>
+<h3 id="3-изменение-и-добавление-нескольких-файлов">3. Изменение и добавление нескольких файлов<a href="#3-изменение-и-добавление-нескольких-файлов" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Добавлен текст в файл:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Add-Content README.txt <span style="color:#e6db74">&#34;привет, мир!&#34;</span>
+</span></span></code></pre></div><p>Git отмечает <code>README.txt</code> как <em>modified</em>.<br>
+Добавлены все <code>.txt</code> файлы:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add <span style="color:#e6db74">&#39;*.txt&#39;</span>
+</span></span></code></pre></div><p><img src="../images/image35.png" alt="Шаг 6">
+Создан новый файл <code>README-ENG.txt</code>, затем:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;all files with .txt extension were added&#34;</span>
+</span></span></code></pre></div><h2 id="шаг-9">Изменены 2 файла: добавлен <code>README-ENG.txt</code>, обновлён <code>README.txt</code>.
+<img src="../images/image38.png" alt="Шаг 7">
+<img src="../images/image40.png" alt="Шаг 8">
+<img src="../images/image21.png" alt="Шаг 9"></h2>
+<h3 id="4-просмотр-истории">4. Просмотр истории<a href="#4-просмотр-истории" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git log
+</span></span><span style="display:flex;"><span>git log --summary
+</span></span></code></pre></div><h2 id="шаг-11">Отображена история коммитов и подробности изменений.
+<img src="../images/image28.png" alt="Шаг 10">
+<img src="../images/image23.png" alt="Шаг 11"></h2>
+<h3 id="5-добавление-удалённого-репозитория-и-push">5. Добавление удалённого репозитория и push<a href="#5-добавление-удалённого-репозитория-и-push" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git remote add origin &lt;URL_репозитория&gt;
+</span></span><span style="display:flex;"><span>git push -u origin master
+</span></span></code></pre></div><p>После добавления строк:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-powershell" data-lang="powershell"><span style="display:flex;"><span>Add-Content README.txt <span style="color:#e6db74">&#34;hello!&#34;</span>
+</span></span><span style="display:flex;"><span>Add-Content README-ENG.txt <span style="color:#e6db74">&#34;world!&#34;</span>
+</span></span></code></pre></div><p><img src="../images/image32.png" alt="Шаг 12">
+и выполнения:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add <span style="color:#e6db74">&#39;*.txt&#39;</span>
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;all files with .txt extension were changed&#34;</span>
+</span></span><span style="display:flex;"><span>git push -u origin master
+</span></span></code></pre></div><h2 id="шаг-13">локальная ветка <code>master</code> синхронизирована с <code>origin/master</code>.
+<img src="../images/image25.png" alt="Шаг 13"></h2>
+<h3 id="6-получение-изменений-и-сравнение-версий">6. Получение изменений и сравнение версий<a href="#6-получение-изменений-и-сравнение-версий" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git pull origin master
+</span></span><span style="display:flex;"><span>git diff HEAD
+</span></span></code></pre></div><h2 id="шаг-15">После добавления строки <code>&quot;hello!&quot;</code> в <code>README.txt</code> Git показал зелёную строку <code>+hello!</code>, означающую новое добавление.
+<img src="../images/image33.png" alt="Шаг 14">
+<img src="../images/image2.png" alt="Шаг 15"></h2>
+<h3 id="7-работа-с-папками-и-файлами">7. Работа с папками и файлами<a href="#7-работа-с-папками-и-файлами" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Создана структура:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>mkdir folder
+</span></span><span style="display:flex;"><span>New-Item folder/file.txt -ItemType File
+</span></span></code></pre></div><p><img src="../images/image16.png" alt="Шаг 16">
+Git сообщает:</p>
+<ul>
+<li><code>README.txt</code> — изменён (modified),</li>
+<li><code>folder/</code> — неотслеживается (untracked).</li>
+</ul>
+<p>Добавление в индекс:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git add README.txt folder/.
+</span></span></code></pre></div><hr>
+<h3 id="8-проверка-staged-изменений-и-отмена">8. Проверка staged-изменений и отмена<a href="#8-проверка-staged-изменений-и-отмена" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git diff --staged
+</span></span><span style="display:flex;"><span>git reset folder/file.txt
+</span></span><span style="display:flex;"><span>git diff
+</span></span><span style="display:flex;"><span>git checkout -- README.txt
+</span></span></code></pre></div><h2 id="шаг-18">Файл <code>README.txt</code> возвращён к последнему зафиксированному состоянию.<br>
+В репозитории осталась только неотслеживаемая папка <code>folder/</code>.
+<img src="../images/image43.png" alt="Шаг 17">
+<img src="../images/image34.png" alt="Шаг 18"></h2>
+<h3 id="9-работа-с-ветками">9. Работа с ветками<a href="#9-работа-с-ветками" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Создание и переход:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git branch clean_up
+</span></span><span style="display:flex;"><span>git branch
+</span></span><span style="display:flex;"><span>git checkout clean_up
+</span></span></code></pre></div><p><img src="../images/image6.png" alt="Шаг 19">
+<img src="../images/image14.png" alt="Шаг 20">
+Удаление и фиксация:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm -r folder
+</span></span><span style="display:flex;"><span>git rm README-ENG.txt
+</span></span><span style="display:flex;"><span>git commit -m <span style="color:#e6db74">&#34;deleted folder and files&#34;</span>
+</span></span></code></pre></div><p><img src="../images/image37.png" alt="Шаг 21">
+<img src="../images/image11.png" alt="Шаг 22">
+<img src="../images/image10.png" alt="Шаг 23">
+Возврат и слияние:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git checkout master
+</span></span><span style="display:flex;"><span>git merge clean_up
+</span></span><span style="display:flex;"><span>git push
+</span></span></code></pre></div><p>Изменения из <code>clean_up</code> успешно объединены с <code>master</code>.</p>
+<hr>
+<h2 id="работа-через-github-desktop">Работа через GitHub Desktop<a href="#работа-через-github-desktop" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<h3 id="1-создание-нового-репозитория">1. Создание нового репозитория<a href="#1-создание-нового-репозитория" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<h2 id="шаг-25">Создан новый репозиторий прямо из GitHub Desktop.<br>
+<img src="../images/image31.png" alt="Шаг 24">
+<img src="../images/image9.png" alt="Шаг 25"></h2>
+<h3 id="2-добавление-файлов">2. Добавление файлов<a href="#2-добавление-файлов" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>В проводнике добавлен файл <code>README.txt</code>.<br>
+Сделан первый коммит — изменения отображаются во вкладке <strong>Changes</strong> и <strong>History</strong>.<br>
+<img src="../images/image5.png" alt="Шаг 26"></p>
+<hr>
+<h3 id="3-изменение-и-коммит">3. Изменение и коммит<a href="#3-изменение-и-коммит" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>Добавлен новый файл <code>README-ENG.txt</code>, изменён <code>README.txt</code>.<br>
+Закоммичено и опубликовано на GitHub.<br>
+<img src="../images/image1.png" alt="Шаг 27">
+<img src="../images/image19.png" alt="Шаг 28"></p>
+<hr>
+<h3 id="4-работа-с-ветками">4. Работа с ветками<a href="#4-работа-с-ветками" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<ul>
+<li>Создана ветка <code>clean_up</code></li>
+<li>Удалён файл <code>README-ENG.txt</code></li>
+<li>Переключение обратно на <code>main</code></li>
+<li>Выполнен merge ветки <code>clean_up</code> в <code>main</code></li>
+<li>Изменения запушены<br>
+<img src="../images/image17.png" alt="Шаг 29"></li>
+</ul>
+<hr>
+<h3 id="5-итоговый-вид-репозитория">5. Итоговый вид репозитория<a href="#5-итоговый-вид-репозитория" class="hanchor" ariaLabel="Anchor">#</a> </h3>
+<p>На GitHub отображаются все изменения: история коммитов, удаление файлов и актуальное состояние ветки <code>main</code>.<br>
+<img src="../images/image15.png" alt="Шаг 30"></p>
+<hr>
+<h2 id="результаты">Результаты<a href="#результаты" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<ul>
+<li>Изучены и применены команды:<br>
+<code>git init</code>, <code>git add</code>, <code>git commit</code>, <code>git log</code>, <code>git diff</code>, <code>git branch</code>, <code>git merge</code>, <code>git push</code>, <code>git pull</code>, <code>git rm</code>.</li>
+<li>Получены навыки работы с ветками и индексом.</li>
+<li>Освоен интерфейс <strong>GitHub Desktop</strong> и работа с удалённым репозиторием.</li>
+</ul>
+<hr>
+<h2 id="вывод">Вывод<a href="#вывод" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>В ходе лабораторной работы были освоены базовые принципы работы с системой контроля версий Git.<br>
+Закреплены практические навыки работы в терминале и графическом клиенте.<br>
+Процесс синхронизации с GitHub отработан полностью — от создания репозитория до push-коммитов и работы с ветками.</p>
+<hr>
+<h2 id="приложение">Приложение<a href="#приложение" class="hanchor" ariaLabel="Anchor">#</a> </h2>
+<p>Для оформления отчёта использован формат <strong>Markdown (.md)</strong>.</p>
+
+      </div></div>
+
+  
+
+  
+    
+
+  
+</article>
+
+  </div>
+
+  
+    <footer class="footer">
+  <div class="footer__inner">
+    
+      <div class="copyright">
+        <span>© 2025 Powered by <a href="https://gohugo.io">Hugo</a></span>
+    
+      <span>:: <a href="https://github.com/panr/hugo-theme-terminal" target="_blank">Theme</a> made by <a href="https://github.com/panr" target="_blank">panr</a></span>
+      </div>
+  </div>
+</footer>
+
+
+
+
+
+
+<script type="text/javascript" src="/web_portfolio/bundle.min.js"></script>
+
+
+
+
+
+  
+</div>
+
+</body>
+</html>
