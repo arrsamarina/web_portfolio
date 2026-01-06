@@ -3,6 +3,7 @@ title: "работа с фреймворком Bootstrap 5"
 date: 2025-11-08T15:51:19+03:00
 draft: false
 type: "reports"
+weight: 2
 ---
 
 [ссылка на репозиторий github](https://github.com/arrsamarina/lab_bootstrap)

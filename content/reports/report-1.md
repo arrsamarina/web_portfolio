@@ -3,6 +3,7 @@ title: "отчёт 1"
 date: 2025-11-08T16:14:24+03:00
 draft: false
 type: "reports"
+weight: 1
 ---
 
 # Лабораторная работа: Работа с Git  
