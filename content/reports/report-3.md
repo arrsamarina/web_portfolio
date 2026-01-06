@@ -32,17 +32,17 @@ weight: 3
 
 **Рисунок 1 — Главная страница приложения с кнопкой «Показать время», реализованной с использованием Bootstrap 5**
 
-![Главная страница с кнопкой](images/bootstrap-luxon-1.jpg)
+![Главная страница с кнопкой](../images/bootstrap-luxon-1.jpg)
 
 **Рисунок 2 — Модальное окно Bootstrap с отображением текущей даты и времени с помощью библиотеки Luxon**
 
-![Модальное окно с датой и временем](images/bootstrap-luxon-2.jpg)
+![Модальное окно с датой и временем](../images/bootstrap-luxon-2.jpg)
 
 **Рисунок 3 — HTML-разметка страницы приложения с использованием Bootstrap 5**
 
-![HTML-разметка страницы](images/bootstrap-luxon-3.jpg)
+![HTML-разметка страницы](../images/bootstrap-luxon-3.jpg)
 
 **Рисунок 4 — Остаток HTML-разметки и фрагмент JavaScript-кода приложения, отвечающий за работу модального окна и отображение времени**
 
-![JavaScript-код приложения](images/bootstrap-luxon-4.jpg)
+![JavaScript-код приложения](../images/bootstrap-luxon-4.jpg)
 
