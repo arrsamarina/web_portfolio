@@ -1,6 +1,6 @@
 ---
 title: "Bootstrap 5 + Luxon + Vite — Этап 3 (публикация на статическом сайте)"
-date: 2026-01-07T03:00:00+03:00
+date: 2026-01-03T17:30:00+03:00
 draft: false
 type: "reports"
 weight: 4
