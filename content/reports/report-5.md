@@ -422,7 +422,7 @@ docker compose version
 
 ### Запуск проекта:
 
-1. **Клонируйте репозиторий** (если еще не сделано):
+1. **Клонируйте репозиторий**:
 ```bash
 git clone https://github.com/arrsamarina/vue3-python.git
 cd vue3-python
@@ -472,7 +472,7 @@ docker compose up
 docker compose down -v --rmi all
 ```
 
-### Альтернатива: запуск без Docker (для разработки)
+### Альтернатива: запуск без Docker
 
 Если Docker не установлен, можно запустить проект локально:
 

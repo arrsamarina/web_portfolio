@@ -12,7 +12,6 @@ weight: 4
 
 **https://arrsamarina.github.io/web_portfolio/apps/clock-vite/**
 
-(после публикации на GitHub Pages/Helios подставишь полный URL)
 
 ## Скриншот интерфейса приложения (UI)
 
